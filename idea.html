@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>website</title>
+  </head>
+
+  <style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-size: 100px;
+}
+
+.dead-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.bottom-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.hover-swap .alt {
+  display: none;
+}
+
+.hover-swap:hover .default {
+  display: none;
+}
+
+.hover-swap:hover .alt {
+  display: inline;
+}
+  </style>
+
+  <body>
+    <div class="dead-center">
+      <h1 class="hover-swap">
+        <img src="img/idea.webp" width=559 height=794>
+      </h1>
+    </div>
+    <a href="website.html" style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);">
+      <span style="color:black;">back</span>
+    </a>
+  </body>
+</html>
