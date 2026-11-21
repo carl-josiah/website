@@ -1,3 +1,3 @@
 # website
 
-personal projects, experimentations, thoughts, and shenanigans.
+personal projects, experimentations, thoughts, and shenanigans
