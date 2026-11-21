@@ -1,4 +1,4 @@
-# my website
+# website
 
 an introduction to people about who i am and what i'm interested in
 
