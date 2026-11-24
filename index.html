@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>website</title>
+    <title>carl josiah</title>
   </head>
 
   <style>
@@ -18,7 +18,7 @@ body {
 
 h1 {
   color: white;
-  font-size: 100px;
+  font-size: 150px;
 }
 
 .dead-center {
@@ -27,6 +27,22 @@ h1 {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+}
+
+.middle-up {
+  color: black;
+  position: fixed;
+  bottom: 860px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.middle-bottom {
+  color: black;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .bottom-center {
@@ -54,15 +70,34 @@ h1 {
     <div class="dead-center">
       <h1 class="hover-swap">
         <span class="default" style="color: red;">
-          love<span style="color:white;font-size:30px">blinds</span><span style="color:red;font-size:100px">.</span>
+         carl 
+          <span style="color:white;font-size:45px">
+            josiah
+          </span>
+          <span style="color:red;font-size:150px">
+            .
+          </span>
         </span>
         <span class="alt" style="color: white;">
-          fear<span style="color:red;font-size:30px">binds</span><span style="color:white;font-size:100px">.</span>
+          carl
+          <span style="color:red;font-size:45px">
+            josiah
+          </span>
+          <span style="color:white;font-size:150px">
+            .
+          </span>
         </span>
       </h1>
     </div>
-    <a href="idea.html" style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);">
-      <span style="color:white;">idea</span>
-    </a>
+    <div class="middle-bottom">
+      <a href="idea.html">
+        <span style="color:white;">idea</span>
+      </a>
+    </div>
+    <div class="middle-up">
+      <a href="projects.html">
+        <span style="color:white;">projects</span>
+      </a>
+    </div>
   </body>
 </html>
